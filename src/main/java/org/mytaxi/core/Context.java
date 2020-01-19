@@ -13,7 +13,7 @@ public class Context {
 	
 	public Properties getPropertiesFile() {
 		
-	try (InputStream input = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties")) {
+	try (InputStream input = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/config.properties")) {
 
 	        prop = new Properties();
 	        prop.load(input);
