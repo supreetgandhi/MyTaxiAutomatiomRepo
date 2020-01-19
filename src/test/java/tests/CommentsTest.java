@@ -17,11 +17,10 @@ import services.PostsService;
 import services.UserService;
 import java.util.List;
 
-
 public class CommentsTest extends Initializer implements IDataHolder{
 	
 	private static int userid;
-	private String username="Samantha";
+	private String username="Samant";
 	private PostsService postservice;
 	private UserService userservice;
 	private CommentsService commentsservice;
@@ -77,10 +76,9 @@ public class CommentsTest extends Initializer implements IDataHolder{
 	 * Created By             :          Supreet Singh Gandhi
 	 * Created Date           :          18th January 2020
 	 *************************************************************************************************/
-	@Override
-	public void setUserID(int userid) {
-		this.userid=userid;
-	}
+	/*
+	 * @Override public void setUserID(int userid) { this.userid=userid; }
+	 */
 	
 	/*************************************************************************************************
 	 * Description            :          Test to get the posts list and then fetch the post id and post title
