@@ -154,6 +154,7 @@ public class CommentsTest extends Initializer implements IDataHolder{
 		}catch(Exception e) {
 			reporthandler.fail(e.getMessage());
 		}
+		reporthandler.endTest();
 		commentslist=null;
 		commentsservice=null;
 	}
