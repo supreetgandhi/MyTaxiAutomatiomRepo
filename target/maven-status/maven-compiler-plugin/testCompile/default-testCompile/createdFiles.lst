@@ -1,0 +1,6 @@
+services\CommentsService.class
+services\PostsService.class
+services\UserService.class
+tests\CommentsTest.class
+reports\ReportHandler.class
+hook\Initializer.class

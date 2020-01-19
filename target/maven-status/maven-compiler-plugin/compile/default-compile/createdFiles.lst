@@ -1,0 +1,8 @@
+org\mytaxi\model\Users.class
+org\mytaxi\model\Company.class
+org\mytaxi\model\Comments.class
+org\mytaxi\interfaces\IDataHolder.class
+org\mytaxi\model\Address.class
+org\mytaxi\core\Context.class
+org\mytaxi\model\Posts.class
+org\mytaxi\model\Geo.class
