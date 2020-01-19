@@ -17,11 +17,10 @@ import services.PostsService;
 import services.UserService;
 import java.util.List;
 
-
 public class CommentsTest extends Initializer implements IDataHolder{
 	
 	private static int userid;
-	private String username="Samantha";
+	private String username="Samant";
 	private PostsService postservice;
 	private UserService userservice;
 	private CommentsService commentsservice;
