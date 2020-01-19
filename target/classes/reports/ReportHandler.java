@@ -41,19 +41,19 @@ public class ReportHandler {
 		if(actual.equals(expected)) {
 			node.log(Status.PASS, MarkupHelper.createLabel(" PASSED :"+message +" : "+ actual, ExtentColor.GREEN));
 		}
-		assertTrue(actual.equals(expected));
+		else {
+			node.log(Status.FAIL, MarkupHelper.createLabel(" FAILED :"+message +" : "+ actual, ExtentColor.RED));
+		}
 	}
 	
 	public void fail(String message) {
 		log.error(message);
 		node.log(Status.FAIL, MarkupHelper.createLabel(" FAILED :"+message, ExtentColor.RED));
-		assertTrue(false);
 	}
 
 	public void pass(String message) {
 		log.info(message);
 		node.log(Status.PASS, MarkupHelper.createLabel(" PASSED :"+message, ExtentColor.GREEN));
-		assertTrue(true);
 	}
 	
 	public void info(String message) {

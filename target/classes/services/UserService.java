@@ -2,17 +2,12 @@ package services;
 
 
 import static com.jayway.restassured.RestAssured.given;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.mytaxi.model.Posts;
 import org.mytaxi.model.Users;
 
-import com.aventstack.extentreports.ExtentTest;
 import com.jayway.restassured.http.ContentType;
-
 import hook.Initializer;
 import reports.ReportHandler;
 

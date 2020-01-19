@@ -20,7 +20,7 @@ import java.util.List;
 public class CommentsTest extends Initializer implements IDataHolder{
 	
 	private static int userid;
-	private String username="Samant";
+	private String username="Samantha";
 	private PostsService postservice;
 	private UserService userservice;
 	private CommentsService commentsservice;
@@ -53,7 +53,7 @@ public class CommentsTest extends Initializer implements IDataHolder{
 			userslist = userservice.getUsersList();
 			setUserID(userservice.getUserID(userslist, username));
 		}catch(Exception e) {
-			Initializer.reports().fail(e.getMessage());
+			reporthandler.fail(e.getMessage());
 		}
 		userslist=null;
 		userservice=null;
@@ -100,7 +100,7 @@ public class CommentsTest extends Initializer implements IDataHolder{
 			posttitle=postservice.getPostsByUser(postslist, getUserID());
 			setPostId(postid);
 		}catch(Exception e) {
-			Initializer.reports().fail(e.getMessage());
+			reporthandler.fail(e.getMessage());
 		}
 		postslist=null;
 		postservice=null;
