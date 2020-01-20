@@ -55,7 +55,7 @@ public class UserService {
 					userid=user.getId();
 					break;
 				}
-				else {}	//do nothing
+				else {}
 			}
 			if(userslist.size()==counter) reporthandler.fail("No username found in the response : "+ username);
 			else {} //do nothing
