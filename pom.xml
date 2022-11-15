@@ -40,7 +40,7 @@
     <restassured-version>2.9.0</restassured-version>
     <iorestassured-version>4.1.2</iorestassured-version>
     <jaxb-version>2.3.1</jaxb-version>
-    <jackson-version>2.10.1</jackson-version>
+    <jackson-version>2.12.7.1</jackson-version>
     <extentreport-version>3.0.0</extentreport-version>
   </properties>
   
